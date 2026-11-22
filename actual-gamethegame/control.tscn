@@ -1,11 +1,11 @@
 [gd_scene format=4 uid="uid://cpf6fewhtmwlb"]
 
 [ext_resource type="Script" uid="uid://86jiplp1qvuv" path="res://player.gd" id="1_qtu10"]
-[ext_resource type="Texture2D" uid="uid://lt0qi4aoro0m" path="res://icon.svg" id="2_ee4bf"]
+[ext_resource type="Texture2D" uid="uid://dr7yqe1rit1wv" path="res://Untitled.png" id="2_qtu10"]
 [ext_resource type="Texture2D" uid="uid://xgw1yq5chdvx" path="res://the smile.png" id="3_kbped"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1x8tr"]
-size = Vector2(127, 115)
+size = Vector2(127, 94)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fj5cn"]
 texture = ExtResource("3_kbped")
@@ -81,10 +81,11 @@ sources/0 = SubResource("TileSetAtlasSource_fj5cn")
 script = ExtResource("1_qtu10")
 
 [node name="Sprite2D" type="Sprite2D" parent="player" unique_id=204519120]
-texture = ExtResource("2_ee4bf")
+position = Vector2(1, 0)
+texture = ExtResource("2_qtu10")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="player" unique_id=1790241835]
-position = Vector2(-1.5, 6.5)
+position = Vector2(-1.5, -4)
 shape = SubResource("RectangleShape2D_1x8tr")
 
 [node name="Camera2D" type="Camera2D" parent="player" unique_id=1906709686]
