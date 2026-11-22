@@ -1,7 +1,0 @@
-[gd_scene format=3 uid="uid://dvatenmhb1nwa"]
-
-[node name="Node" type="Node" unique_id=200432246]
-
-[node name="player" type="CharacterBody2D" parent="." unique_id=1079047591]
-light_mask = 1023
-platform_wall_layers = 255
